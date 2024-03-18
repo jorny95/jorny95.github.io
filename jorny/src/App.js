@@ -1,11 +1,13 @@
 import './styles/style.scss';
 
 import Index from "./components/Index";
+import Three from "./components/Three";
 
 function App() {
   return (
-    <div className="IndexPage">
+    <div >
       <Index />
+      <Three />
     </div>
   );
 }

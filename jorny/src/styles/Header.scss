@@ -1,0 +1,13 @@
+.Header {
+  background: #d0ff72;
+  width: 100vw;
+  color: #ff7d7e;
+
+  &__contents {
+    // max-width: 108rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
