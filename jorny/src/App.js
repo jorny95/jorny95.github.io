@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/style.scss';
+
+import Router from "./components/Router";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        asdfasdfasf
-      </header>
+    <div>
+      <Router />
     </div>
   );
 }
