@@ -1,11 +1,11 @@
 import './styles/style.scss';
 
-import Router from "./components/Router";
+import Index from "./components/Index";
 
 function App() {
   return (
-    <div>
-      <Router />
+    <div className="IndexPage">
+      <Index />
     </div>
   );
 }
